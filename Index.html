@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <title>Kraniks Weltkarte</title>
+  <style>
+    body {
+      text-align: center;
+      background-color: #f0f0f0;
+      font-family: Arial, sans-serif;
+    }
+    .map-container {
+      position: relative;
+      display: inline-block;
+    }
+    .marker {
+      position: absolute;
+      width: 20px;
+      height: 20px;
+      background-color: red;
+      border-radius: 50%;
+      cursor: pointer;
+      transform: translate(-50%, -50%);
+      box-shadow: 0 0 5px black;
+    }
+    .label {
+      position: absolute;
+      transform: translate(-50%, -50%);
+      font-size: 12px;
+      color: black;
+      margin-top: 25px;
+    }
+  </style>
+</head>
+<body>
+  <h1>🌍 Kraniks Weltreise</h1>
+  <p>Klicke auf einen Ort, um mehr zu erfahren!</p>
+  <div class="map-container">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/8/80/World_map_-_low_resolution.svg" alt="Weltkarte" width="800">
+
+    <!-- Marker für Lissabon -->
+    <div class="marker" style="top: 55%; left: 32%;" onclick="openPage('lissabon.html')"></div>
+    <div class="label" style="top: 55%; left: 32%;">Lissabon</div>
+
+    <!-- Marker für Bochum -->
+    <div class="marker" style="top: 48%; left: 34%;" onclick="openPage('bochum.html')"></div>
+    <div class="label" style="top: 48%; left: 34%;">Bochum</div>
+  </div>
+
+  <script>
+    function openPage(url) {
+      window.location.href = url;
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <title>Lissabon</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #e6f2ff;
+      text-align: center;
+      padding: 50px;
+    }
+  </style>
+</head>
+<body>
+  <h1>🇵🇹 Willkommen in Lissabon!</h1>
+  <p>Die Hauptstadt Portugals – bekannt für ihre historischen Straßenbahnen, das leckere Pastel de Nata und die wunderschöne Altstadt.</p>
+  <a href="index.html">🔙 Zurück zur Karte</a>
+</body>
+</html>

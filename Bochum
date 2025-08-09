@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <title>Bochum</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #fffbe6;
+      text-align: center;
+      padding: 50px;
+    }
+  </style>
+</head>
+<body>
+  <h1>🇩🇪 Willkommen in Bochum!</h1>
+  <p>Mitten im Ruhrgebiet – bekannt für das Deutsche Bergbau-Museum, Herbert Grönemeyer und eine lebendige Kulturszene.</p>
+  <a href="index.html">🔙 Zurück zur Karte</a>
+</body>
+</html>
